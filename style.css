@@ -903,6 +903,14 @@ section {
               padding: 80px 20px;
        }
 
+       .hero-content {
+              margin-top: 20px;
+       }
+
+       .cta {
+              display: none;
+       }
+
        .hero h1 {
               font-size: 32px;
        }
@@ -914,6 +922,8 @@ section {
        .hero .buttons {
               flex-direction: column;
               align-items: center;
+              gap: 15px;
+              margin: 25px;
        }
 
        .hero .btn {
@@ -960,6 +970,7 @@ section {
        .buttons {
               flex-direction: column;
               gap: 10px;
+              max-width: 280px;
        }
 
        .btn {
