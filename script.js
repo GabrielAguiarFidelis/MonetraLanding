@@ -32,7 +32,7 @@ botoes.forEach((botao) => {
     texto.innerText = `Você escolheu o plano ${planoSelecionado.toUpperCase()}`;
 
     // abre modal
-    modal.classList.add("show de bola");
+    modal.classList.add("show");
   });
 });
 
