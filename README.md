@@ -40,7 +40,7 @@ O projeto tem como objetivo demonstrar habilidades em desenvolvimento front-end,
 
 ##  Preview do Projeto
 
-
+https://monetra-control.vercel.app/
 
 ---
 
