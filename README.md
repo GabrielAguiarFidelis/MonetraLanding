@@ -19,7 +19,7 @@ O projeto tem como objetivo demonstrar habilidades em desenvolvimento front-end,
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - HTML5  
 - CSS3  
