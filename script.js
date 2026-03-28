@@ -42,7 +42,7 @@ fechar.onclick = () => modal.classList.remove("show");
 /* CONTINUAR */
 confirmar.onclick = () => {
   modal.classList.remove("show");
-  location.href = "";
+  location.href = "https://monetra-security.vercel.app/";
 
   // remove seleção anterior
   document.querySelectorAll(".plano").forEach((p) => {
