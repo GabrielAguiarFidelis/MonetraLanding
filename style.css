@@ -4,8 +4,8 @@ html {
 
 body {
        margin: 0;
-       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-       background: #020617;
+       font-family: 'Inter', sans-serif;
+       background: #ffffff;
        color: #fff;
        overflow-x: hidden;
 }
@@ -74,9 +74,8 @@ header .cta:hover {
        justify-content: space-between;
        padding: 100px 10%;
        min-height: 65vh;
-
-       background: radial-gradient(circle at 20% 30%, #1e293b, #020617);
-       color: white;
+       background: #f1f5f9;
+       color: #0f173a;
 }
 
 /* TEXT */
@@ -134,8 +133,8 @@ header .cta:hover {
 }
 
 .secondary {
-       background: rgba(255, 255, 255, 0.1);
-       color: white;
+       background: rgba(18, 17, 59, 0.803);
+       color: rgb(255, 255, 255);
 }
 
 /* SOCIAL */
@@ -161,7 +160,7 @@ header .cta:hover {
 }
 
 .mockup {
-       background: linear-gradient(145deg, #ffffff, #e2e8f0);
+       background: linear-gradient(145deg, #ffffff, #b8babc);
        padding: 20px;
        border-radius: 20px;
        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
@@ -218,7 +217,7 @@ section {
 
 /* PROBLEMA */
 .problema {
-       background: #f8fafc;
+       background: #f1f5f9;
        padding: 100px 20px;
        text-align: center;
        min-height: 60vh;
@@ -234,7 +233,7 @@ section {
 .problema h2 {
        font-size: 36px;
        margin: 10px 0;
-       color: #0f172a;
+       color: #0f173a;
 }
 
 .problema .subtitle {
@@ -307,7 +306,7 @@ section {
 
 /* SOLUÇÃO */
 .solucao {
-       background: #f8fafc;
+       background: #f1f5f9;
        padding: 100px 20px;
        text-align: center;
 }
@@ -322,7 +321,7 @@ section {
 .solucao h2 {
        font-size: 36px;
        margin: 10px 0;
-       color: #0f172a;
+       color: #0f173a;
 }
 
 .solucao .subtitle {
@@ -413,9 +412,16 @@ section {
 
 /* DEMO */
 .demo {
-       background: #f8fafc;
+       background: #f1f5f9;
        padding: 100px 20px;
        text-align: center;
+       display: flex;
+}
+
+.text-demo {
+       max-width: 500px;
+       margin-left: 100px;
+       margin-top: 200px;
 }
 
 .tag {
@@ -428,7 +434,7 @@ section {
 .demo h2 {
        font-size: 36px;
        margin: 10px 0;
-       color: #0f172a;
+       color: #0f173a;
 }
 
 .demo p {
@@ -465,28 +471,15 @@ section {
 .phone {
        width: 280px;
        height: 560px;
-       background: #111;
+       background: #475569;
        border-radius: 40px;
-       padding: 12px;
+       padding: 10px;
        margin: 0 auto;
        position: relative;
 
        box-shadow:
-              0 20px 60px rgba(0, 0, 0, 0.3),
-              inset 0 0 10px rgba(255, 255, 255, 0.05);
-}
-
-/* notch (detalhe do topo) */
-.phone::before {
-       content: "";
-       width: 120px;
-       height: 20px;
-       background: #000;
-       position: absolute;
-       top: 8px;
-       left: 50%;
-       transform: translateX(-50%);
-       border-radius: 10px;
+              0 20px 60px rgba(85, 84, 84, 0.3),
+              inset 0 0 10px rgba(255, 255, 255, 0.181);
 }
 
 /* tela */
@@ -506,7 +499,7 @@ section {
 
 /* BENEFÍCIOS */
 .beneficios {
-       background: #f8fafc;
+       background: #f1f5f9;
        padding: 100px 20px;
        text-align: center;
 }
@@ -521,7 +514,7 @@ section {
 .beneficios h2 {
        font-size: 36px;
        margin: 10px 0;
-       color: #0f172a;
+       color: #0f173a;
 }
 
 .beneficios p {
@@ -607,7 +600,7 @@ section {
 
 /* Planos */
 .planos {
-       background: #f8fafc;
+       background: #f1f5f9;
        padding: 100px 20px;
        text-align: center;
 }
@@ -623,7 +616,7 @@ section {
 .planos h2 {
        font-size: 36px;
        margin: 10px 0;
-       color: #0f172a;
+       color: #0f173a;
 }
 
 .planos .subtitle {
@@ -797,18 +790,17 @@ section {
 .cta-final {
        text-align: center;
        padding: 100px 20px;
-
-       background: radial-gradient(circle at 50% 30%, #1e293b, #020617);
-       color: white;
+       background: #f1f5f9;
+       color: #0f173a;
 }
 
 /* TAG */
 .cta-final .tag {
-       background: rgba(255, 255, 255, 0.1);
+       background: #f1f5f9;
        padding: 6px 14px;
        border-radius: 20px;
        font-size: 12px;
-       color: #facc15;
+       color: #ffffff;
 }
 
 /* TÍTULO */
@@ -856,12 +848,12 @@ section {
 
 /* BOTÃO SECUNDÁRIO */
 .cta-final .secondary {
-       background: rgba(255, 255, 255, 0.1);
-       color: white;
+       background: rgb(255, 255, 255);
+       color: #0f173a;
 }
 
 .cta-final .secondary:hover {
-       background: rgba(255, 255, 255, 0.2);
+       background: rgba(173, 166, 166, 0.334);
 }
 
 /* TEXTO FINAL */
@@ -881,7 +873,7 @@ section {
 }
 
 .footer {
-       background: #020617;
+       background: #f1f5f9;
        color: #94a3b8;
        padding: 40px 20px;
        text-align: center;
@@ -892,7 +884,7 @@ section {
 }
 
 .footer h3 {
-       color: white;
+       color: #0f173a;
        margin-bottom: 10px;
 }
 
@@ -1008,4 +1000,128 @@ section {
               font-size: 28px;
        }
 
+}
+
+/* ===== DARK MODE OVERRIDES ===== */
+body {
+       background: #070c17 !important;
+       color: #e2e8f0 !important;
+}
+
+header {
+       background: rgba(5, 12, 28, 0.9) !important;
+       border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+header h1 {
+       color: #e5ecff !important;
+}
+
+header nav a {
+       color: #94a3b8 !important;
+}
+
+header nav a:hover,
+footer .links a:hover,
+.btn:hover,
+.cta-final .primary:hover,
+.cta-final .secondary:hover {
+       color: #fce08b !important;
+}
+
+.hero,
+.problema,
+.solucao,
+.beneficios,
+.demo,
+.planos,
+.cta-final,
+.footer {
+       background: #0b1225 !important;
+       color: #dbe8fc !important;
+}
+
+.hero p,
+.problema .subtitle,
+.solucao .subtitle,
+.beneficios p,
+.planos .subtitle,
+.cta-final p,
+.footer p,
+.footer .copy {
+       color: #94a3b8 !important;
+}
+
+.card,
+.problema .card,
+.solucao .card,
+.beneficios .card,
+.plano,
+.phone,
+.mockup,
+.modal-content {
+       background: #111f36 !important;
+       border-color: #1f2f4f !important;
+       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.55) !important;
+}
+
+.card h3,
+.problema h3,
+.problema h2,
+.solucao h2,
+.solucao h3,
+.beneficios h2,
+.planos h2,
+.preco,
+.demo h2,
+.cta-final h2,
+.footer h3 {
+       color: #ffffff !important;
+}
+
+.icones,
+.icon,
+.badge,
+.plano.ativo::after,
+.tag,
+.star,
+.floating-card small {
+       color: #000000 !important;
+}
+
+.solucao .icon,
+.icon.green,
+.icon.blue,
+.icon.purple,
+.icon.red,
+.icon.orange {
+       opacity: 0.95 !important;
+}
+
+.primary,
+.btn.primary,
+.cta-final .primary,
+.plano.ativo,
+.header .cta,
+.badge,
+.tag {
+       background: #f97316 !important;
+       color: white !important;
+}
+
+.secondary,
+.cta-final .secondary {
+       background: rgba(30, 42, 70, 0.8) !important;
+       color: #dbe8fc !important;
+}
+
+.footer {
+       background: #091128 !important;
+}
+
+.hero h1 span,
+.tag,
+.cta-final h2 span,
+.floating-card small {
+       color: #f97316;
 }

@@ -11,6 +11,7 @@
        <link rel="stylesheet" href="style.css">
        <link rel="shortcut icon" href="img/icons8-financiar-64.png" type="image/x-icon">
        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css">
+       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
        <script>
               window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
        </script>
@@ -66,13 +67,13 @@
               <div class="hero-image">
                      <div class="phone">
                             <div class="screen">
-                                   <img src="img/Dashboard.jpg" alt="Sistema">
+                                   <img src="img/Dashboard1.jpg" alt="Sistema">
                             </div>
                      </div>
 
                      <div class="floating-card">
                             <span>Lucro do mês</span>
-                            <strong>R$ 8.450</strong>
+                            <strong>R$ 3.794</strong>
                             <small>+18% este mês</small>
                      </div>
               </div>
@@ -94,7 +95,7 @@
 
                      <div class="card">
                             <div class="icon"><i class="ri-money-dollar-circle-line"></i></div>
-                            <h3>Gastos descontrolados</h3>
+                            <h3 class="text">Gastos descontrolados</h3>
                             <p>Sem registrar corretamente, você perde dinheiro sem perceber.</p>
                      </div>
 
@@ -175,21 +176,23 @@
 
        <!-- DEMO -->
        <section class="demo" id="demo">
-              <span class="tag">DEMONSTRAÇÃO</span>
-              <h2>Veja o sistema em ação</h2>
-              <p>
-                     Explore as principais telas do sistema e descubra como ele pode transformar seu negócio.
-              </p>
+              <div class="text-demo">
+                     <span class="tag">DEMONSTRAÇÃO</span>
+                     <h2>Veja o sistema em ação</h2>
+                     <p>
+                            Explore as principais telas do sistema e descubra como ele pode transformar seu negócio.
+                     </p>
 
-              <div class="tabs">
-                     <button class="tab active" onclick="trocarTela(event,'dashboard')">Dashboard</button>
-                     <button class="tab" onclick="trocarTela(event,'ganhos')">Ganhos</button>
-                     <button class="tab" onclick="trocarTela(event,'gastos')">Gastos</button>
+                     <div class="tabs">
+                            <button class="tab active" onclick="trocarTela(event,'dashboard')">Dashboard</button>
+                            <button class="tab" onclick="trocarTela(event,'ganhos')">Ganhos</button>
+                            <button class="tab" onclick="trocarTela(event,'gastos')">Gastos</button>
+                     </div>
               </div>
 
               <div class="phone">
                      <div class="screen">
-                            <img id="tela" src="img/Dashboard.jpg" alt="Sistema">
+                            <img id="tela" src="img/Dashboard1.jpg" alt="Sistema">
                      </div>
               </div>
        </section>
@@ -260,7 +263,7 @@
                                    <li>❌ Suporte prioritário</li>
                             </ul>
 
-                            <a href="#" class="btn primary escolher" data-plano="basico">Começar</a>
+                            <a href="" class="btn primary escolher" data-plano="basico">Testar Grátis</a>
                      </div>
 
                      <!-- PRO (DESTAQUE) -->
@@ -278,7 +281,7 @@
                                    <li>✔ Suporte rápido</li>
                             </ul>
 
-                            <a href="#" class="btn primary escolher" data-plano="pro">Começar agora</a>
+                            <a href="#" class="btn primary escolher" data-plano="pro">Plano PRO</a>
                      </div>
 
                      <!-- PREMIUM -->
@@ -294,7 +297,7 @@
                                    <li>✔ Novidades antecipadas</li>
                             </ul>
 
-                            <a href="#" class="btn primary escolher" data-plano="premium">Começar</a>
+                            <a href="#" class="btn primary escolher" data-plano="premium">Plano Premium</a>
                      </div>
 
               </div>

@@ -5,9 +5,9 @@ function trocarTela(e, tipo) {
   tabs.forEach((t) => t.classList.remove("active"));
   e.target.classList.add("active");
 
-  if (tipo === "dashboard") img.src = "img/Dashboard.jpg";
-  if (tipo === "ganhos") img.src = "img/Ganhos.png";
-  if (tipo === "gastos") img.src = "img/Gastos.png";
+  if (tipo === "dashboard") img.src = "img/Dashboard1.jpg";
+  if (tipo === "ganhos") img.src = "img/Ganhos.jpg";
+  if (tipo === "gastos") img.src = "img/Gastos.jpg";
 }
 
 const botoes = document.querySelectorAll(".escolher");
@@ -42,6 +42,7 @@ fechar.onclick = () => modal.classList.remove("show");
 /* CONTINUAR */
 confirmar.onclick = () => {
   modal.classList.remove("show");
+  location.href = "";
 
   // remove seleção anterior
   document.querySelectorAll(".plano").forEach((p) => {
